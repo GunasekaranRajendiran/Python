@@ -1,0 +1,19 @@
+#largest among three numbers
+a=int(input("enter your 1st number:"))
+b=int(input("enter your 2nd number:"))
+c=int(input("enter your 3rd number:"))
+if(a>b and a>c):
+    print("largest number is:",a)
+elif(b>a and b>c):
+    print("largest number is :",b) 
+else:
+    print("largest number is :",c)
+    
+    
+    
+    
+    output:
+    enter your 1st number:9
+enter your 2nd number:0
+enter your 3rd number:4
+largest number is: 9
