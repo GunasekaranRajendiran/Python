@@ -1,0 +1,25 @@
+lower=int(input("enter yourlower number"))
+upper=int(input("enter your upper number"))
+for number in range(lower,upper+1):
+  if(number>1):
+    for i in range(2,number):
+      if(number%i):
+        break
+    else:
+    print(number)
+    
+    
+    
+    
+    output:
+enter your lower number1
+enter your upper number20
+2
+3
+5
+7
+11
+13
+17
+19
+    
